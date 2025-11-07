@@ -1,7 +1,109 @@
 /* Add your CSS to this file */
 body {
-    margin: 0;
-    font-size: 16px;
+  font-family: system-ui, sans-serif;
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+}
+header {
+  background-color: white;
+  font-size: 18px;
+}
+
+header a {
+  color: #6b7280;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+header a:hover {
+  color: #5A67D8;
+}
+
+.hero-overview {
+  background-color: #E2E8F0;
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.learn-about h2 {
+  font-size: 24px;
+  color: #48BB78;
+  text-align: center;
+}
+
+.learn-about .card {
+  border: 1px solid #E2E8F0;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  background: white;
+}
+
+.learn-about .card h3 {
+  color: #48BB78;
+  font-size: 21px;
+}
+
+.covid-testing {
+  background-color: #4A5568;
+  color: white;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.covid-testing a {
+  background-color: #48BB78;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.recent-stories h2 {
+  color: #5A67D8;
+  text-align: center;
+}
+
+.recent-stories .story-title {
+  font-size: 18px;
+}
+
+.recent-stories a {
+  color: #5A67D8;
+  text-decoration: none;
+}
+
+.recent-stories a:hover {
+  text-decoration: underline;
+}
+
+.recent-stories img {
+  border-radius: 50%;
+}
+
+
+.newsletter {
+  background-color: #48BB78;
+  color: white;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.newsletter button {
+  background-color: #5A67D8;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+footer {
+  background-color: #4A5568;
+  color: white;
+  text-align: center;
+  padding: 20px;
 }
 
 .container {
